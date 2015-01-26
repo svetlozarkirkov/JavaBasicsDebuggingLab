@@ -40,5 +40,6 @@ public class Problem4_Substring {
         if (!hasMatch) {
             System.out.println("no");
         }
+        input.close();
     }
 }
