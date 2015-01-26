@@ -30,5 +30,6 @@ public class Problem6_BitCarousel {
         }
 
         System.out.println(number);
+        input.close();
     }
 }
