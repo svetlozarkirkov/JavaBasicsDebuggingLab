@@ -31,13 +31,13 @@ public class Problem3_BePositive {
 					found = true;
 				} else {
 					if (j+1 < numbers.size()){
-					currentNum += numbers.get(j + 1);					
-					
-					if (currentNum >= 0) {	// 0 is not negative
-						System.out.printf("%d%s", currentNum, j == numbers.size() - 1 ? "\n" : " " ); // reversed true and false outputs
-						found = true;
-					}
-					j++; // skip the num used
+						currentNum += numbers.get(j + 1);					
+						
+						if (currentNum >= 0) {	// 0 is not negative
+							System.out.printf("%d%s", currentNum, j+1 == numbers.size() - 1 ? "\n" : " " ); // reversed true and false outputs
+							found = true;
+						}
+						j++; // skip the num used
 				}
 			}
 		}
